@@ -1,0 +1,784 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/michaelklein/Documents/KiCad/7.0/projects/AD9833_versatile_signal_generator/AD9833_vers_gen/AD9833_vers_gen.kicad_sch</source>
+    <date>2024 June 25, Tuesday 12:27:08</date>
+    <tool>Eeschema 7.0.8</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>AD9833 versatile function generator</title>
+        <company>Mike:   michael@art-of-electronics.blog</company>
+        <rev>1.8</rev>
+        <date>2024-06-14</date>
+        <source>AD9833_vers_gen.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="A1">
+      <value>Arduino_Nano_v3.x</value>
+      <footprint>Module:Arduino_Nano</footprint>
+      <datasheet>http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf</datasheet>
+      <libsource lib="MCU_Module" part="Arduino_Nano_v3.x" description="Arduino Nano v3.x"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AD9833_vers_gen.kicad_sch"/>
+      <property name="ki_description" value="Arduino Nano v3.x"/>
+      <property name="ki_keywords" value="Arduino nano microcontroller module USB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9b4ceb64-6b8f-4cdf-863c-54689508b970</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>100nF Folie</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm</footprint>
+      <libsource lib="PCM_SL_Capacitors" part="104_Ceramic" description="100nF Ceramic Capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AD9833_vers_gen.kicad_sch"/>
+      <property name="ki_description" value="100nF Ceramic Capacitor"/>
+      <property name="ki_keywords" value="Ceramic Capacitor 104 100nF"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0895b3d5-c9dd-48c9-9e46-b999958101f9</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>2.2uF_16V</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <libsource lib="PCM_SL_Capacitors" part="4.7uF_16V" description="4.7uF, 16V Electrolytic Capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AD9833_vers_gen.kicad_sch"/>
+      <property name="ki_description" value="4.7uF, 16V Electrolytic Capacitor"/>
+      <property name="ki_keywords" value="Electrolytic Capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f18a27a4-8ffc-4093-b03c-44fdd85bfb7f</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>22uF_16V</value>
+      <footprint>Capacitor_THT:CP_Radial_D4.0mm_P1.50mm</footprint>
+      <libsource lib="PCM_SL_Capacitors" part="22uF_16V" description="22uF, 16V Electrolytic Capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AD9833_vers_gen.kicad_sch"/>
+      <property name="ki_description" value="22uF, 16V Electrolytic Capacitor"/>
+      <property name="ki_keywords" value="Electrolytic Capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d562a81b-3dab-4ac1-8b10-c7377f081729</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>0.1uF_0603_16V</value>
+      <footprint>4ms_Capacitor:C_0603</footprint>
+      <fields>
+        <field name="Display">0.1uF</field>
+        <field name="JLCPCB ID">C14663</field>
+        <field name="Manufacturer">AVX Corporation</field>
+        <field name="Part Number">0603YC104KAT2A</field>
+        <field name="Specifications">0.1uF, Min. 16V 10%, X7R or X5R or similar</field>
+      </fields>
+      <libsource lib="PCM_4ms_Capacitor" part="0.1uF_0603_16V" description="0.1uF, Min. 16V 10%, X7R or X5R or similar"/>
+      <property name="Specifications" value="0.1uF, Min. 16V 10%, X7R or X5R or similar"/>
+      <property name="Manufacturer" value="AVX Corporation"/>
+      <property name="Part Number" value="0603YC104KAT2A"/>
+      <property name="Display" value="0.1uF"/>
+      <property name="JLCPCB ID" value="C14663"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AD9833_vers_gen.kicad_sch"/>
+      <property name="ki_description" value="0.1uF, Min. 16V 10%, X7R or X5R or similar"/>
+      <property name="ki_keywords" value="100nF_0603_16V"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9ff9a208-3080-4dc0-aab6-fd840857be47</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>22uF_16V</value>
+      <footprint>Capacitor_THT:CP_Radial_D4.0mm_P1.50mm</footprint>
+      <libsource lib="PCM_SL_Capacitors" part="22uF_16V" description="22uF, 16V Electrolytic Capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AD9833_vers_gen.kicad_sch"/>
+      <property name="ki_description" value="22uF, 16V Electrolytic Capacitor"/>
+      <property name="ki_keywords" value="Electrolytic Capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>405a8c22-fedd-47d7-a29e-e7d1e83da095</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>22uF_16V</value>
+      <footprint>Capacitor_THT:CP_Radial_D4.0mm_P1.50mm</footprint>
+      <libsource lib="PCM_SL_Capacitors" part="22uF_16V" description="22uF, 16V Electrolytic Capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AD9833_vers_gen.kicad_sch"/>
+      <property name="ki_description" value="22uF, 16V Electrolytic Capacitor"/>
+      <property name="ki_keywords" value="Electrolytic Capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0c7ac5e7-3062-48e8-ab5b-db40e8c037b8</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AD9833_vers_gen.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e1b7a3a1-1934-4d7d-a5c2-5fd097ffca9f</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AD9833_vers_gen.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>39b61e14-9ba7-4555-935d-ad93bbe88058</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>1M5</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="PCM_SL_Devices" part="Resistor" description="0.25W Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AD9833_vers_gen.kicad_sch"/>
+      <property name="ki_description" value="0.25W Resistor"/>
+      <property name="ki_keywords" value="Resistor 0.25W"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cbf952f8-e43e-4acb-9edb-ae6ec73b4385</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>2k2</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="PCM_SL_Devices" part="Resistor" description="0.25W Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AD9833_vers_gen.kicad_sch"/>
+      <property name="ki_description" value="0.25W Resistor"/>
+      <property name="ki_keywords" value="Resistor 0.25W"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dec1dbef-c3b0-4ddf-a4da-984f4fd3c791</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="PCM_SL_Devices" part="Resistor" description="0.25W Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AD9833_vers_gen.kicad_sch"/>
+      <property name="ki_description" value="0.25W Resistor"/>
+      <property name="ki_keywords" value="Resistor 0.25W"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a48eab4f-c389-469f-a9ee-ba217c82c9e0</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>20k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="PCM_SL_Devices" part="Resistor" description="0.25W Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AD9833_vers_gen.kicad_sch"/>
+      <property name="ki_description" value="0.25W Resistor"/>
+      <property name="ki_keywords" value="Resistor 0.25W"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fb544c6f-12f5-4e71-bbf8-e7f11c5f14fb</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>100k</value>
+      <fields>
+        <field name="Indicator">100k</field>
+        <field name="Sim.Device">SPICE</field>
+        <field name="Sim.Params">type="A" model="lin100k" lib="R-potentiometer.lib"</field>
+        <field name="Sim.Pins">1=1 2=2 3=3</field>
+      </fields>
+      <libsource lib="PCM_Generic" part="R-potentiometer,IEC" description="potentiometer with movable/rotating/sliding contact (IEC)"/>
+      <property name="Sim.Pins" value="1=1 2=2 3=3"/>
+      <property name="Sim.Device" value="SPICE"/>
+      <property name="Sim.Params" value="type=&quot;A&quot; model=&quot;lin100k&quot; lib=&quot;R-potentiometer.lib&quot;"/>
+      <property name="Indicator" value="100k"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AD9833_vers_gen.kicad_sch"/>
+      <property name="ki_description" value="potentiometer with movable/rotating/sliding contact (IEC)"/>
+      <property name="ki_keywords" value="A R pot potentiometer movable rotating sliding contact IEC adjustable res resistor wiper knob trimmer lin log"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bb006473-e676-4700-be3d-2e2e3a662fd5</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>3k3</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="PCM_SL_Devices" part="Resistor" description="0.25W Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AD9833_vers_gen.kicad_sch"/>
+      <property name="ki_description" value="0.25W Resistor"/>
+      <property name="ki_keywords" value="Resistor 0.25W"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5e4ddae4-e9db-448f-b6d0-d2145a39e9d2</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>Push for RESET</value>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AD9833_vers_gen.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>32f2c608-9cef-4580-99d5-5513994c7cb3</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>VCO int/ext.</value>
+      <footprint>4ms_Switch:Slide_Switch_Runrun_SS22D06</footprint>
+      <fields>
+        <field name="Manufacturer">RunRun</field>
+        <field name="Part Number">SS22D06</field>
+        <field name="Specifications">On/On, SubMini toggle 2-position</field>
+      </fields>
+      <libsource lib="PCM_4ms_Switch" part="Slide_DPDT_SS22D06" description="On/On, SubMini toggle 2-position"/>
+      <property name="Specifications" value="On/On, SubMini toggle 2-position"/>
+      <property name="Manufacturer" value="RunRun"/>
+      <property name="Part Number" value="SS22D06"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AD9833_vers_gen.kicad_sch"/>
+      <property name="ki_description" value="On/On, SubMini toggle 2-position"/>
+      <property name="ki_keywords" value="Slide_DPDT_SS22D06"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8baeed67-0604-492b-ac2e-5e432505532a</tstamps>
+    </comp>
+    <comp ref="SW3">
+      <value>measure int/ext.</value>
+      <footprint>4ms_Switch:Slide_Switch_Runrun_SS22D06</footprint>
+      <fields>
+        <field name="Manufacturer">RunRun</field>
+        <field name="Part Number">SS22D06</field>
+        <field name="Specifications">On/On, SubMini toggle 2-position</field>
+      </fields>
+      <libsource lib="PCM_4ms_Switch" part="Slide_DPDT_SS22D06" description="On/On, SubMini toggle 2-position"/>
+      <property name="Specifications" value="On/On, SubMini toggle 2-position"/>
+      <property name="Manufacturer" value="RunRun"/>
+      <property name="Part Number" value="SS22D06"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AD9833_vers_gen.kicad_sch"/>
+      <property name="ki_description" value="On/On, SubMini toggle 2-position"/>
+      <property name="ki_keywords" value="Slide_DPDT_SS22D06"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>492a8706-125e-4905-a46b-06b9f02005a3</tstamps>
+    </comp>
+    <comp ref="SW4">
+      <value>trigger out 5V/3V</value>
+      <footprint>4ms_Switch:Slide_Switch_Runrun_SS22D06</footprint>
+      <fields>
+        <field name="Manufacturer">RunRun</field>
+        <field name="Part Number">SS22D06</field>
+        <field name="Specifications">On/On, SubMini toggle 2-position</field>
+      </fields>
+      <libsource lib="PCM_4ms_Switch" part="Slide_DPDT_SS22D06" description="On/On, SubMini toggle 2-position"/>
+      <property name="Specifications" value="On/On, SubMini toggle 2-position"/>
+      <property name="Manufacturer" value="RunRun"/>
+      <property name="Part Number" value="SS22D06"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AD9833_vers_gen.kicad_sch"/>
+      <property name="ki_description" value="On/On, SubMini toggle 2-position"/>
+      <property name="ki_keywords" value="Slide_DPDT_SS22D06"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f886ffc5-7a3d-4300-94df-9e8e1adb1ed8</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>MCP41010</value>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/11195c.pdf</datasheet>
+      <libsource lib="Potentiometer_Digital" part="MCP41010" description="Single Digital Potentiometer, SPI interface, 256 taps, 10 kohm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AD9833_vers_gen.kicad_sch"/>
+      <property name="ki_description" value="Single Digital Potentiometer, SPI interface, 256 taps, 10 kohm"/>
+      <property name="ki_keywords" value="R POT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ca74125b-e93b-4227-a50f-a3f5a466640c</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>OPA2228PA</value>
+      <footprint>Package_DIP_AKL:DIP-8_W7.62mm_LongPads</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/opa2227.pdf?ts=1634999940353&amp;ref_url=https%253A%252F%252Fwww.google.com%252F</datasheet>
+      <libsource lib="PCM_Amplifier_Operational_AKL" part="OPA2228PA" description="DIP-8 Dual Precision Operational Amplifier, 200μV Offset, 2μV/°C Drift, 33MHz GBW, Alternate KiCAD Library"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AD9833_vers_gen.kicad_sch"/>
+      <property name="ki_description" value="DIP-8 Dual Precision Operational Amplifier, 200μV Offset, 2μV/°C Drift, 33MHz GBW, Alternate KiCAD Library"/>
+      <property name="ki_keywords" value="opamp operational amplifier dual precision OPA2228"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9a6ce57d-cbe0-4e91-9164-5f40fc163c92 4bd18084-0c08-46ee-9ee1-d15d99956377</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Diode" part="1N4148">
+      <description>100V 0.15A standard switching diode, DO-35</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</docs>
+      <footprints>
+        <fp>D*DO?35*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4148</field>
+        <field name="Footprint">Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Module" part="Arduino_Nano_v3.x">
+      <description>Arduino Nano v3.x</description>
+      <docs>http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf</docs>
+      <footprints>
+        <fp>Arduino*Nano*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">A</field>
+        <field name="Value">Arduino_Nano_v3.x</field>
+        <field name="Footprint">Module:Arduino_Nano</field>
+        <field name="Datasheet">http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D1/TX" type="bidirectional"/>
+        <pin num="2" name="D0/RX" type="bidirectional"/>
+        <pin num="3" name="~{RESET}" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="D2" type="bidirectional"/>
+        <pin num="6" name="D3" type="bidirectional"/>
+        <pin num="7" name="D4" type="bidirectional"/>
+        <pin num="8" name="D5" type="bidirectional"/>
+        <pin num="9" name="D6" type="bidirectional"/>
+        <pin num="10" name="D7" type="bidirectional"/>
+        <pin num="11" name="D8" type="bidirectional"/>
+        <pin num="12" name="D9" type="bidirectional"/>
+        <pin num="13" name="D10" type="bidirectional"/>
+        <pin num="14" name="D11" type="bidirectional"/>
+        <pin num="15" name="D12" type="bidirectional"/>
+        <pin num="16" name="D13" type="bidirectional"/>
+        <pin num="17" name="3V3" type="power_out"/>
+        <pin num="18" name="AREF" type="input"/>
+        <pin num="19" name="A0" type="bidirectional"/>
+        <pin num="20" name="A1" type="bidirectional"/>
+        <pin num="21" name="A2" type="bidirectional"/>
+        <pin num="22" name="A3" type="bidirectional"/>
+        <pin num="23" name="A4" type="bidirectional"/>
+        <pin num="24" name="A5" type="bidirectional"/>
+        <pin num="25" name="A6" type="bidirectional"/>
+        <pin num="26" name="A7" type="bidirectional"/>
+        <pin num="27" name="+5V" type="power_out"/>
+        <pin num="28" name="~{RESET}" type="input"/>
+        <pin num="29" name="GND" type="power_in"/>
+        <pin num="30" name="VIN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="PCM_4ms_Capacitor" part="0.1uF_0603_16V">
+      <description>0.1uF, Min. 16V 10%, X7R or X5R or similar</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">0.1uF_0603_16V</field>
+        <field name="Footprint">4ms_Capacitor:C_0603</field>
+        <field name="Specifications">0.1uF, Min. 16V 10%, X7R or X5R or similar</field>
+        <field name="Manufacturer">AVX Corporation</field>
+        <field name="Part Number">0603YC104KAT2A</field>
+        <field name="Display">0.1uF</field>
+        <field name="JLCPCB ID">C14663</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PCM_4ms_Switch" part="Slide_DPDT_SS22D06">
+      <description>On/On, SubMini toggle 2-position</description>
+      <footprints>
+        <fp>*DPDT*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">Slide_DPDT_SS22D06</field>
+        <field name="Footprint">4ms_Switch:Slide_Switch_Runrun_SS22D06</field>
+        <field name="Specifications">On/On, SubMini toggle 2-position</field>
+        <field name="Manufacturer">RunRun</field>
+        <field name="Part Number">SS22D06</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+        <pin num="4" name="A" type="passive"/>
+        <pin num="5" name="B" type="passive"/>
+        <pin num="6" name="C" type="passive"/>
+        <pin num="7" name="SHIELD" type="passive"/>
+        <pin num="8" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PCM_Amplifier_Operational_AKL" part="OPA2228PA">
+      <description>DIP-8 Dual Precision Operational Amplifier, 200μV Offset, 2μV/°C Drift, 33MHz GBW, Alternate KiCAD Library</description>
+      <docs>https://www.ti.com/lit/ds/symlink/opa2227.pdf?ts=1634999940353&amp;ref_url=https%253A%252F%252Fwww.google.com%252F</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">OPA2228PA</field>
+        <field name="Footprint">Package_DIP_AKL:DIP-8_W7.62mm_LongPads</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/opa2227.pdf?ts=1634999940353&amp;ref_url=https%253A%252F%252Fwww.google.com%252F</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="" type="output"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="PCM_Generic" part="R-potentiometer,IEC">
+      <description>potentiometer with movable/rotating/sliding contact (IEC)</description>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-potentiometer,IEC</field>
+        <field name="Sim.Pins">1=1 2=2 3=3</field>
+        <field name="Sim.Device">SPICE</field>
+        <field name="Sim.Params">type="A" model="lin100k" lib="R-potentiometer.lib"</field>
+        <field name="Indicator">●</field>
+      </fields>
+      <pins>
+        <pin num="1" name="a" type="passive"/>
+        <pin num="2" name="b" type="passive"/>
+        <pin num="3" name="c" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PCM_SL_Capacitors" part="104_Ceramic">
+      <description>100nF Ceramic Capacitor</description>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">104_Ceramic</field>
+        <field name="Footprint">Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="PCM_SL_Capacitors" part="22uF_16V">
+      <description>22uF, 16V Electrolytic Capacitor</description>
+      <footprints>
+        <fp>Capacitor_THT:CP_Radial_D5.0mm_*</fp>
+        <fp>Capacitor_THT:CP_Radial_D4.0mm_*</fp>
+        <fp>Capacitor_THT:CP_Radial_D6.3mm_*</fp>
+        <fp>Capacitor_THT:CP_Radial_D7.5mm_*</fp>
+        <fp>Capacitor_THT:CP_Radial_D8.0mm_*</fp>
+        <fp>Capacitor_THT:CP_Radial_D10.0mm_*</fp>
+        <fp>Capacitor_THT:CP_Radial_D14.0mm_*</fp>
+        <fp>Capacitor_THT:CP_Radial_D16.0mm_*</fp>
+        <fp>Capacitor_THT:CP_Radial_D18.0mm_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">22uF_16V</field>
+        <field name="Footprint">Capacitor_THT:CP_Radial_D4.0mm_P1.50mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="PCM_SL_Capacitors" part="4.7uF_16V">
+      <description>4.7uF, 16V Electrolytic Capacitor</description>
+      <footprints>
+        <fp>Capacitor_THT:CP_Radial_D5.0mm_*</fp>
+        <fp>Capacitor_THT:CP_Radial_D4.0mm_*</fp>
+        <fp>Capacitor_THT:CP_Radial_D6.3mm_*</fp>
+        <fp>Capacitor_THT:CP_Radial_D7.5mm_*</fp>
+        <fp>Capacitor_THT:CP_Radial_D8.0mm_*</fp>
+        <fp>Capacitor_THT:CP_Radial_D10.0mm_*</fp>
+        <fp>Capacitor_THT:CP_Radial_D14.0mm_*</fp>
+        <fp>Capacitor_THT:CP_Radial_D16.0mm_*</fp>
+        <fp>Capacitor_THT:CP_Radial_D18.0mm_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">4.7uF_16V</field>
+        <field name="Footprint">Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="PCM_SL_Devices" part="Resistor">
+      <description>0.25W Resistor</description>
+      <footprints>
+        <fp>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">Resistor</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Potentiometer_Digital" part="MCP41010">
+      <description>Single Digital Potentiometer, SPI interface, 256 taps, 10 kohm</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/11195c.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SOIC*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP41010</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/11195c.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{CS}" type="input"/>
+        <pin num="2" name="SCK" type="passive"/>
+        <pin num="3" name="SI" type="input"/>
+        <pin num="4" name="VSS" type="power_in"/>
+        <pin num="5" name="PA0" type="passive"/>
+        <pin num="6" name="PW0" type="passive"/>
+        <pin num="7" name="PB0" type="passive"/>
+        <pin num="8" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Diode">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Diode.kicad_sym</uri>
+    </library>
+    <library logical="MCU_Module">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//MCU_Module.kicad_sym</uri>
+    </library>
+    <library logical="PCM_4ms_Capacitor">
+      <uri>/Users/michaelklein/Documents/KiCad/7.0/3rdparty/symbols/com_github_4ms_4ms-kicad-lib/4ms_Capacitor.kicad_sym</uri>
+    </library>
+    <library logical="PCM_4ms_Switch">
+      <uri>/Users/michaelklein/Documents/KiCad/7.0/3rdparty/symbols/com_github_4ms_4ms-kicad-lib/4ms_Switch.kicad_sym</uri>
+    </library>
+    <library logical="PCM_Amplifier_Operational_AKL">
+      <uri>/Users/michaelklein/Documents/KiCad/7.0/3rdparty/symbols/com_github_dawidcislo_alternate-kicad-library/Amplifier_Operational_AKL.kicad_sym</uri>
+    </library>
+    <library logical="PCM_Generic">
+      <uri>/Users/michaelklein/Documents/KiCad/7.0/3rdparty/symbols/com_gitlab_franzee_kicad-addons_generic/Generic.kicad_sym</uri>
+    </library>
+    <library logical="PCM_SL_Capacitors">
+      <uri>/Users/michaelklein/Documents/KiCad/7.0/3rdparty/symbols/com_github_Sajitha-Aldeniya_KiCad-Simple-Libraries/SL_Capacitors.kicad_sym</uri>
+    </library>
+    <library logical="PCM_SL_Devices">
+      <uri>/Users/michaelklein/Documents/KiCad/7.0/3rdparty/symbols/com_github_Sajitha-Aldeniya_KiCad-Simple-Libraries/SL_Devices.kicad_sym</uri>
+    </library>
+    <library logical="Potentiometer_Digital">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Potentiometer_Digital.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Switch.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V analog">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pinfunction="a" pintype="passive"/>
+      <node ref="U2" pin="8" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U3" pin="8" pinfunction="V+" pintype="power_in"/>
+    </net>
+    <net code="2" name="+5V from USB">
+      <node ref="A1" pin="27" pinfunction="+5V" pintype="power_out"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+    </net>
+    <net code="3" name="-5V analog">
+      <node ref="C5" pin="2" pintype="input"/>
+      <node ref="U3" pin="4" pinfunction="V-" pintype="power_in"/>
+    </net>
+    <net code="6" name="GNDADC">
+      <node ref="A1" pin="29" pinfunction="GND" pintype="power_in"/>
+      <node ref="C2" pin="2" pintype="input"/>
+      <node ref="C3" pin="2" pintype="input"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="input"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R5" pin="3" pinfunction="c" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U2" pin="7" pinfunction="PB0" pintype="passive"/>
+    </net>
+    <net code="7" name="Marker Output">
+      <node ref="A1" pin="8" pinfunction="D5" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="Net-(A1-A0)">
+      <node ref="A1" pin="19" pinfunction="A0" pintype="bidirectional"/>
+      <node ref="SW2" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(A1-A1)">
+      <node ref="A1" pin="20" pinfunction="A1" pintype="bidirectional"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(A1-D2)">
+      <node ref="A1" pin="5" pinfunction="D2" pintype="bidirectional"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="SW4" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(A1-D8)">
+      <node ref="A1" pin="11" pinfunction="D8" pintype="bidirectional"/>
+      <node ref="U2" pin="1" pinfunction="~{CS}" pintype="input"/>
+    </net>
+    <net code="12" name="Net-(A1-D11)">
+      <node ref="A1" pin="14" pinfunction="D11" pintype="bidirectional"/>
+      <node ref="U2" pin="3" pinfunction="SI" pintype="input"/>
+    </net>
+    <net code="13" name="Net-(A1-D13)">
+      <node ref="A1" pin="16" pinfunction="D13" pintype="bidirectional"/>
+      <node ref="U2" pin="2" pinfunction="SCK" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(A1-~{RESET}-Pad3)">
+      <node ref="A1" pin="3" pinfunction="~{RESET}" pintype="input"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(D1-A)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U3" pin="7" pintype="output"/>
+    </net>
+    <net code="16" name="Net-(D2-A)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="17" name="Net-(R5-b)">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R5" pin="2" pinfunction="b" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(SW2A-A)">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(SW3A-A)">
+      <node ref="SW3" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="PW0" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="20" name="Net-(SW3A-B)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="SW3" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(SW4A-C)">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="SW4" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(U3A--)">
+      <node ref="U3" pin="1" pintype="output"/>
+      <node ref="U3" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="23" name="Net-(U3B-+)">
+      <node ref="C1" pin="2" pintype="input"/>
+      <node ref="U3" pin="5" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="27" name="ext measure input">
+      <node ref="SW3" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="28" name="ext. VCO in 0...5V">
+      <node ref="SW2" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="29" name="unconnected-(A1-3V3-Pad17)">
+      <node ref="A1" pin="17" pinfunction="3V3" pintype="power_out"/>
+    </net>
+    <net code="30" name="unconnected-(A1-A2-Pad21)">
+      <node ref="A1" pin="21" pinfunction="A2" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="unconnected-(A1-A3-Pad22)">
+      <node ref="A1" pin="22" pinfunction="A3" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="unconnected-(A1-A4-Pad23)">
+      <node ref="A1" pin="23" pinfunction="A4" pintype="bidirectional"/>
+    </net>
+    <net code="33" name="unconnected-(A1-A5-Pad24)">
+      <node ref="A1" pin="24" pinfunction="A5" pintype="bidirectional"/>
+    </net>
+    <net code="34" name="unconnected-(A1-A6-Pad25)">
+      <node ref="A1" pin="25" pinfunction="A6" pintype="bidirectional"/>
+    </net>
+    <net code="35" name="unconnected-(A1-A7-Pad26)">
+      <node ref="A1" pin="26" pinfunction="A7" pintype="bidirectional"/>
+    </net>
+    <net code="36" name="unconnected-(A1-AREF-Pad18)">
+      <node ref="A1" pin="18" pinfunction="AREF" pintype="input"/>
+    </net>
+    <net code="37" name="unconnected-(A1-D0{slash}RX-Pad2)">
+      <node ref="A1" pin="2" pinfunction="D0/RX" pintype="bidirectional"/>
+    </net>
+    <net code="38" name="unconnected-(A1-D1{slash}TX-Pad1)">
+      <node ref="A1" pin="1" pinfunction="D1/TX" pintype="bidirectional"/>
+    </net>
+    <net code="39" name="unconnected-(A1-D3-Pad6)">
+      <node ref="A1" pin="6" pinfunction="D3" pintype="bidirectional"/>
+    </net>
+    <net code="40" name="unconnected-(A1-D4-Pad7)">
+      <node ref="A1" pin="7" pinfunction="D4" pintype="bidirectional"/>
+    </net>
+    <net code="41" name="unconnected-(A1-D6-Pad9)">
+      <node ref="A1" pin="9" pinfunction="D6" pintype="bidirectional"/>
+    </net>
+    <net code="42" name="unconnected-(A1-D7-Pad10)">
+      <node ref="A1" pin="10" pinfunction="D7" pintype="bidirectional"/>
+    </net>
+    <net code="43" name="unconnected-(A1-D9-Pad12)">
+      <node ref="A1" pin="12" pinfunction="D9" pintype="bidirectional"/>
+    </net>
+    <net code="44" name="unconnected-(A1-D10-Pad13)">
+      <node ref="A1" pin="13" pinfunction="D10" pintype="bidirectional"/>
+    </net>
+    <net code="45" name="unconnected-(A1-D12-Pad15)">
+      <node ref="A1" pin="15" pinfunction="D12" pintype="bidirectional"/>
+    </net>
+    <net code="46" name="unconnected-(A1-GND-Pad4)">
+      <node ref="A1" pin="4" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="47" name="unconnected-(A1-VIN-Pad30)">
+      <node ref="A1" pin="30" pinfunction="VIN" pintype="power_in"/>
+    </net>
+    <net code="48" name="unconnected-(A1-~{RESET}-Pad28)">
+      <node ref="A1" pin="28" pinfunction="~{RESET}" pintype="input"/>
+    </net>
+    <net code="49" name="unconnected-(SW4A-B-Pad2)">
+      <node ref="SW4" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="50" name="unconnected-(U2-PA0-Pad5)">
+      <node ref="U2" pin="5" pinfunction="PA0" pintype="passive"/>
+    </net>
+  </nets>
+</export>
